@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -122,4 +123,44 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@utility bgcolor1 {
+  background-color :#5A78F0;
+}
+
+@utility color1 {
+  color :#5A78F0;
+}
+
+@utility roboto-gf {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 13px;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@utility roboto-lgfont {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@utility roboto-lg {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
